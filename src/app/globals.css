@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800;900;1000&display=swap');
+
+
+.banner_img{
+    background-image: url("../app/Assets/Images/Banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
