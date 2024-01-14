@@ -20,6 +20,7 @@ module.exports = {
         'primary_paragraph2': '#767676',
         'primary_text': '#121212',
         'span': '#E54A2A',
+        'nav-bg': '#D8E3EE',
       },
     },
   },
