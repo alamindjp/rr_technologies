@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         nunito: ["Nunito, sans-serif"],
+        roboto: ["Roboto, sans-serif"],
         
       },
       colors:{
@@ -18,6 +19,7 @@ module.exports = {
         'primary_paragraph1': '#475569',
         'primary_paragraph2': '#767676',
         'primary_text': '#121212',
+        'span': '#E54A2A',
       },
     },
   },

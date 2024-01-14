@@ -1,14 +1,12 @@
 import React from 'react';
-import Headers from './Components/Shared/Header/Header';
 import Banner from './Components/Banner/Banner';
+import InterestedUs from './Components/InterestedUs/InterestedUs';
 
-const page = () => {
-    return (
-       <div className='bg-[#EBF0EE]'>
-       <Headers/>
-       <Banner/>
-       </div>
-    );
-};
+const page = () => (
+    <div className='bg-[#EBF0EE]'>
+        <Banner />
+        <InterestedUs/>
+    </div>
+);
 
 export default page;
