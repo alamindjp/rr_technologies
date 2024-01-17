@@ -6,8 +6,9 @@ import Link from "next/link";
 
 const Banner = () => {
   return (
-    <section className="banner_img relative mt-[-95px]">
-      <div className="h-[750px] flex flex-col items-center relative">
+    <section className="h-screen banner_background my-auto flex w-full">
+    <div className="h-screen banner_img flex w-full items-end pb-20 md:pb-10">
+      {/* <div className="h-[750px] flex flex-col items-center relative">
         <Image
           src={Earth}
           height="350"
@@ -22,23 +23,24 @@ const Banner = () => {
           alt=""
           className=" absolute top-[300px]"
         />
-      </div>
-      <div className=" absolute top-[250px] flex w-full justify-center">
-        <div className="w-[660px] px-4 md:px-0">
-        <h1 className="text-5xl md:text-6xl font-nunito font-black text-center text-primary_heading1">
+      </div> */}
+      <div className="flex w-full justify-center">
+        <div className="w-[450px] md:w-[660px] px-4 md:px-0">
+        <h1 className="text-4xl md:text-6xl font-nunito font-black text-center text-primary_heading1">
           Welcome to <span className=" text-primary_heading2">RR</span>{" "}
           Technologies
         </h1>
-        <p className="text-center text-primary_paragraph1 mt-20">
+        <p className="text-center text-primary_paragraph1 mt-10 md:mt-20">
           Are you facing difficulties with your website? Do you have a website
           but lack traffic? No need to worry.
         </p>
         <Link href="/" className="flex justify-center mt-5"><button className=" bg-primary_heading1 text-white py-2 px-3 text-sm font-bold rounded-lg">Get Start</button></Link>
-        <div className="flex justify-center mt-20">
+        <div className="flex justify-center mt-16">
         <Image src={mouseIcon} alt="" className="" />
         </div>
         </div>
       </div>
+    </div>
     </section>
   );
 };

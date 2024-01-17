@@ -27,7 +27,7 @@ const Header = () => {
   })
   return (
     <div
-      className={`sticky top-0 font-nunito z-10 ${openMenu? "bg-[#d8e3ea] border-b-2 border-slate-600/20": ""} ${scroll ? "bg-[#D8E3EE] border-b-2 border-slate-600/20" : ""}`}
+      className={`fixed top-0 left-0 right-0 font-nunito z-10 ${openMenu? "bg-nav-bg border-b-2 border-slate-600/20": ""} ${scroll ? "bg-nav-bg border-b-2 border-slate-600/20" : ""}`}
     >
       <div className={`container px-7 md:px-0 mx-auto flex justify-between items-center ${scroll?`${openMenu? "py-4":"py-1"}`: "py-4"}`}>
         <div className=" w-1/3">
@@ -67,7 +67,7 @@ const Header = () => {
             />
           </button>
           {openMenu ? (
-          <ul className={`flex absolute left-0 right-0 justify-between flex-col mt-2 p-10 bg-[#D8E3EE] rounded-md border-b-2 border-slate-600/20`}>
+          <ul className={`flex absolute left-0 right-0 justify-between flex-col mt-2 p-10 bg-nav-bg rounded-md border-b-2 border-slate-600/20`}>
             <div className="pb-5">
             <h2 className="text-2xl font-extrabold uppercase text-primary-title font-rubik ml-[20px]">
               menu
