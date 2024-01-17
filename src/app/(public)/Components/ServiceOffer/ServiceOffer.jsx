@@ -14,7 +14,7 @@ const ServiceOffer = () => {
           <h3 className=" text-xl pt-5 text-primary_heading2">
             Services we offer
           </h3>
-          <h2 className=" text-4xl font-nunito font-black mt-5">
+          <h2 className=" text-4xl font-nunito font-black mt-5 capitalize">
             We believe in true partnership and thus get our <span className=" text-span">customers</span> a bang for
             their bucks. There are various areas in which we function, here are
             a few of them:
