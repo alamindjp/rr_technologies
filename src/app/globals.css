@@ -10,48 +10,62 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.banner_img{
+.banner_img {
   background-image: url("../app/Assets/Images/Banner_img_md.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.choose_us_bg1{
-  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 223, 124, 0.50) 0%, rgba(246, 251, 248, 0.00) 100%);
-  width: 200px;
-  height: 200px;
+.choose_us_bg1 {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 223, 124, 0.5) 0%,
+    rgba(246, 251, 248, 0) 100%
+  );
+  width: 250px;
+  height: 250px;
   z-index: 0;
 }
-.choose_us_bg{
-  background: radial-gradient(50% 50% at 50% 50%, #FAB7B8 0%, rgba(246, 251, 248, 0.00) 100%);
-  width: 200px;
-  height: 200px;
+.choose_us_bg {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #fab7b8 0%,
+    rgba(246, 251, 248, 0) 100%
+  );
+  width: 350px;
+  height: 350px;
   z-index: 0;
 }
-.choose_us_card{
+.choose_us_card {
   background: #fff;
   height: 385px;
   width: 335px;
-  box-shadow: 2px 10px 40px 0px rgba(83, 128, 234, 0.20);
+  box-shadow: 2px 10px 40px 0px rgba(83, 128, 234, 0.2);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 30px 18px;
 }
 
-
-
 /* responsive  */
- 
+
 @media only screen and (min-width: 688px) and (max-width: 992px) {
-    .banner_img {
-        background-image: url("../app/Assets/Images/Banner_img_md.png");
-      }
-   
+  .banner_img {
+    background-image: url("../app/Assets/Images/Banner_img_md.png");
+  }
 }
 @media only screen and (max-width: 688px) {
-    .banner_img {
-        background-image: url("../app/Assets/Images/Banner_img_sm.png");
-      }
-      
+  .banner_img {
+    background-image: url("../app/Assets/Images/Banner_img_sm.png");
+  }
+  .choose_us_bg {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #fab7b8 0%,
+      rgba(246, 251, 248, 0) 100%
+    );
+    width: 200px;
+    height: 200px;
+    z-index: 0;
+  }
 }

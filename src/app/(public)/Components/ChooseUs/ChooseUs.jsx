@@ -22,17 +22,16 @@ const ChooseUs = () => {
             development services. Here are a few of them
           </p>
         </div>
-        <div className=" relative h-[400px]">
-          <div className="choose_us_bg1 absolute top-[-50px] left-0 md:left-[-130px]"></div>
-          <div className="choose_us_bg absolute right-0 bottom-[-150px] md:bottom-[-130px]"></div>
-          <div className="">
-            {/* {data.map((item) => (
+        <div className=" relative">
+          <div className="choose_us_bg1 absolute top-[-100px] left-[-50px] md:left-[-130px]"></div>
+          <div className="choose_us_bg absolute right-[-50px] bottom-[-50px] md:bottom-[250px]"></div>
+          <div className="grid grid-cols-1 md:grid-cols-3 card_style justify-center gap-10 mt-16">
+            {data.map((item) => (
               <Card 
               key={item.id}
               item={item}
               />
-            ))} */}
-            <Card/>
+            ))}
           </div>
         </div>
       </div>
