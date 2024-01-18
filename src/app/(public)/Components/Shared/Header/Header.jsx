@@ -27,7 +27,7 @@ const Header = () => {
   })
   return (
     <div
-      className={`fixed top-0 left-0 right-0 font-nunito z-10 ${openMenu? "bg-nav-bg border-b-2 border-slate-600/20": ""} ${scroll ? "bg-nav-bg border-b-2 border-slate-600/20" : ""}`}
+      className={`fixed top-0 left-0 right-0 font-nunito z-[1000] ${openMenu? "bg-nav-bg border-b-2 border-slate-600/20": ""} ${scroll ? "bg-nav-bg border-b-2 border-slate-600/20" : ""}`}
     >
       <div className={`container px-7 md:px-0 mx-auto flex justify-between items-center ${scroll?`${openMenu? "py-4":"py-1"}`: "py-4"}`}>
         <div className=" w-1/3">
