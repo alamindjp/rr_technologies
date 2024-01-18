@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import React from "react";
 import Card from "./Card";
 
@@ -21,7 +21,7 @@ const ServiceOffer = () => {
           </h2>
         </div>
         <div>
-          <div className=" flex justify-center mt-10">
+          <div className="flex justify-center mt-10">
             <Card/>
             <div></div>
           </div>

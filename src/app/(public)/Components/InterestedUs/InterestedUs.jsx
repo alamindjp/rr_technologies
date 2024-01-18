@@ -23,7 +23,7 @@ const InterestedUs = () => {
               and <span className="text-span"> web development</span> agency in
               Bangladesh.
             </h2>
-            <p className="text-center text-primary_paragraph2 mt-5">
+            <p className="text-center text-primary_paragraph2 mt-5 px-2">
               Technology and business fused together can bear fruitful results
               talking in terms of business flourishing and success. And this is
               what exactly we aim to deliver to our esteemed clients, offering

@@ -5,7 +5,7 @@ const Card = ( {item} ) => {
   
   return (
       <div className="flex flex-col items-center md:flex-row">
-        <div className="choose_us_card z-10">
+        <div className="choose_us_card z-10 rounded-lg">
           <Image width={50} height={50} src={photoUrl} alt="" />
           <h3 className=" text-xl text-primary_heading1 font-nunito font-bold capitalize py-3">
             {name}

@@ -4,8 +4,8 @@ import Card from "./Card";
 
 const ChooseUs = () => {
   return (
-    <section className="bg-primary_bg py-20">
-      <div className=" w-full md:w-[1040px] mx-auto px-5">
+    <section className="bg-primary_bg pt-20 pb-16">
+      <div className=" w-[95%] md:w-[80%] mx-auto px-5">
         <div>
           <h3 className="text-xl font-bold font-roboto text-primary_heading2 capitalize text-center">
             why choose us
@@ -24,8 +24,8 @@ const ChooseUs = () => {
         </div>
         <div className=" relative">
           <div className="choose_us_bg1 absolute top-[-100px] left-[-50px] md:left-[-130px]"></div>
-          <div className="choose_us_bg absolute right-[-50px] bottom-[-50px] md:bottom-[250px]"></div>
-          <div className="grid grid-cols-1 md:grid-cols-3 card_style justify-center gap-10 mt-16">
+          <div className="choose_us_bg absolute right-0 md:right-[-50px] bottom-[-50px] md:bottom-[250px]"></div>
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 card_style justify-center gap-10 mt-16">
             {data.map((item) => (
               <Card 
               key={item.id}
