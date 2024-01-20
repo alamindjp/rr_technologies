@@ -67,7 +67,11 @@
   backdrop-filter: blur(50px);
   display: flex;
 }
-
+.register_left-bg {
+  background-image: url("../app/Assets/Images/group80.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /* responsive  */
 
