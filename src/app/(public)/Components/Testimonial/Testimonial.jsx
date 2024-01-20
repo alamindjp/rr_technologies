@@ -7,7 +7,7 @@ import { data } from "./Data";
 const Testimonial = () => {
     console.log(data[1].photoUrl)
   return (
-    <div className="pt-20 pb-28 bg-primary_bg relative">
+    <section className="pt-20 pb-28 bg-primary_bg relative">
         <div className=" absolute choose_us_bg bottom-0 left-0"></div>
         <div className=" absolute testimonial_bg bottom-1/2 md:bottom-0 right-0"></div>
       <h2 className="text-4xl flex justify-center font-nunito font-black text-primary_heading1">
@@ -34,7 +34,7 @@ const Testimonial = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
