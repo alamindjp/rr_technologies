@@ -4,6 +4,7 @@ import InterestedUs from './Components/InterestedUs/InterestedUs';
 import ServiceOffer from './Components/ServiceOffer/ServiceOffer';
 import ChooseUs from './Components/ChooseUs/ChooseUs';
 import Portfolio from './Components/Portfolio/Portfolio';
+import Testimonial from './Components/Testimonial/Testimonial';
 
 const page = () => (
     <div className='bg-[#EBF0EE]'>
@@ -12,6 +13,7 @@ const page = () => (
         <ServiceOffer/>
         <ChooseUs/>
         <Portfolio/>
+        <Testimonial/>
     </div>
 );
 

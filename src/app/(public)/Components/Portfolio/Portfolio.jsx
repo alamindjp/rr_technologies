@@ -5,7 +5,6 @@ import Link from "next/link";
 import { data, portfolioPhoto } from "./Data";
 
 const Portfolio = () => {
-  console.log(portfolioPhoto[0].photoUrl);
   return (
     <div className=" bg-primary_bg pt-12 pb-28">
       <div className="flex flex-col gap-2 items-center">
