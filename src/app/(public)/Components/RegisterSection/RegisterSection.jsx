@@ -1,6 +1,6 @@
 import React from "react";
 import { InputField, TextareaField } from "./InputField";
-import leftImage from "@/app/Assets/Images/Assistant bot.png";
+import leftImage from "@/app/Assets/Images/Assistant_bot.png";
 import leftBgImage from "@/app/Assets/Images/group80.svg";
 import Image from "next/image";
 
