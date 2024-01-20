@@ -5,7 +5,6 @@ import Image from "next/image";
 import { data } from "./Data";
 
 const Testimonial = () => {
-    console.log(data[1].photoUrl)
   return (
     <section className="pt-20 pb-28 bg-primary_bg relative">
         <div className=" absolute choose_us_bg bottom-0 left-0"></div>
