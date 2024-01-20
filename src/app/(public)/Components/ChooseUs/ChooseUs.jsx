@@ -25,7 +25,7 @@ const ChooseUs = () => {
         <div className=" relative">
           <div className="choose_us_bg1 absolute top-[-100px] left-[-50px] md:left-[-130px]"></div>
           <div className="choose_us_bg absolute right-0 md:right-[-50px] bottom-[-50px] md:bottom-[250px]"></div>
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 card_style justify-center gap-10 mt-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 card_style justify-items-center gap-10 mt-16">
             {data.map((item) => (
               <Card 
               key={item.id}
