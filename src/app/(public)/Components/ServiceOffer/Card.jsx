@@ -11,7 +11,7 @@ const Card = ({ item, className }) => {
   }
   return (
     <div
-      className={`min-h-48 w-4/5 sm:2/3 md:w-full md:max-w-96 mx-auto shadow-md border-t-[10px] rounded border-primary_heading2 ${className}`}
+      className={`min-h-48 w-full sm:w-2/3 md:w-full md:max-w-96 mx-auto shadow-md border-t-[10px] rounded border-primary_heading2 z-50 ${className}`}
     >
       <div className="pl-3 min-h-40 relative">
         <div className=" w-10 h-10 my-3">

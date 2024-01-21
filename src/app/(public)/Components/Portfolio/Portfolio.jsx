@@ -31,10 +31,10 @@ const Portfolio = () => {
             ))}
           </ul>
         </div>
-        <div className="w-full md:w-[3/4] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 justify-items-center mt-5 lg:mt-0">
+        <div className="w-full md:w-[3/4] grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 justify-items-center gap-10 sm:gap-2 mt-5 lg:mt-0">
           {portfolioPhoto.map(({ id, photoUrl }) => (
             <div key={id}>
-              <Image width={170} height={150} src={photoUrl} alt="" />
+              <Image width={270} height={250} src={photoUrl} alt="" />
             </div>
           ))}
         </div>
