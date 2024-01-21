@@ -32,10 +32,10 @@ const Header = () => {
   
   return (
     <div
-      className={`bg-nav-bg md:bg-transparent fixed top-0 left-0 right-0 font-nunito z-[1000] `}
+      className={`fixed top-0 left-0 right-0 font-nunito z-[1000] ${openMenu? "bg-nav-bg border-b-2 border-slate-600/20": ""} ${scroll ? "bg-nav-bg border-b-2 border-slate-600/20" : ""}`}
     >
       <div
-        className={`${openMenu? "bg-nav-bg border-b-2 border-slate-600/20": ""} ${scroll ? "bg-nav-bg border-b-2 border-slate-600/20" : ""}`}
+        className={``}
       >
         <div
           className={`container px-7 md:px-0 mx-auto flex justify-between items-center ${
