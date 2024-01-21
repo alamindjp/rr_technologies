@@ -20,6 +20,8 @@ const Header = () => {
     }
   };
   useEffect(() => {
+    window.addEventListener("scroll", scrollHandler);
+    window.scrollTo(0,0);
 
     return () => {
       window.addEventListener("scroll", scrollHandler);
