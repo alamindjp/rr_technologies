@@ -43,7 +43,7 @@ const Header = () => {
           }`}
         >
           <div className=" w-1/3">
-            <Image src={Logo} alt="" />
+            <Link href="/"><Image src={Logo} alt="logo" /></Link>
           </div>
           <div className="w-2/3 hidden md:block">
             <div className="flex justify-between items-center">
