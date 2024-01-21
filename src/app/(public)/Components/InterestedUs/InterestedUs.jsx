@@ -17,7 +17,7 @@ const InterestedUs = () => {
               Thank you for your interest in us!
             </h3>
 
-            <h2 className="text-3xl md:text-4xl font-nunito font-black md:w-[780px] mx-auto text-center mt-5 text-primary_heading1">
+            <h2 className="text-2xl px-3 md:text-4xl font-nunito font-black md:w-[780px] mx-auto text-center mt-5 text-primary_heading1">
               Founded over 7 years ago, RR Technologies is now the main
               <span className="text-span"> web design </span>
               and <span className="text-span"> web development</span> agency in
