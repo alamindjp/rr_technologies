@@ -7,7 +7,7 @@ import Image from "next/image";
 const RegisterSection = () => {
   return (
     <section className="flex flex-col md:flex-row md:w-11/12 lg:w-10/12 mx-auto my-32">
-      <div className="w-1/2 md:pr-10 mx-auto my-auto pb-16">
+      <div className="md:w-1/2 md:pr-10 mx-auto my-auto pb-16">
         <div className=" w-10/12 mx-auto relative">
           <Image
             src={leftBgImage}
