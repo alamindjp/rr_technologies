@@ -10,7 +10,7 @@ const ChooseUs = () => {
           <h3 className="text-xl font-bold font-roboto text-primary_heading2 capitalize text-center">
             why choose us
           </h3>
-          <h2 className="text-4xl font-black font-nunito capitalize text-center text-primary_heading1 py-2">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-black font-nunito capitalize text-center text-primary_heading1 py-2">
             for your web development needs?
           </h2>
           <p className="text-base text-primary_paragraph2 text-center">

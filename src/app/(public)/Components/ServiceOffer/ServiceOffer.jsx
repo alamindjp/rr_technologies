@@ -14,14 +14,14 @@ const ServiceOffer = () => {
           <h3 className="text-xl text-primary_heading2">
             Services we offer
           </h3>
-          <h2 className="text-2xl md:text-4xl font-nunito font-black mt-5 capitalize">
+          <h2 className="text-xl md:text-2xl lg:text-4xl font-nunito font-black mt-5 capitalize">
             We believe in true partnership and thus get our{" "}
             <span className=" text-span">customers</span> a bang for their
             bucks. There are various areas in which we function, here are a few
             of them:
           </h2>
         </div>
-        <div className="grid w-11/12 md:w-1/2 grid-cols-1 md:grid-cols-2 gap-5 mt-10">
+        <div className="grid w-full mx-5 md:w-1/2 grid-cols-1 md:grid-cols-2 gap-5 mt-10">
           {data.map((item) => (
             <Card key={item.id} item={item} />
           ))}

@@ -15,7 +15,7 @@ const Portfolio = () => {
       </div>
       <div className="flex flex-col lg:flex-row w-[95%] md:w-[90%] lg:w-[80%] mx-auto mt-16">
         <div className="w-full lg:w-1/4 text-primary_heading1 capitalize font-nunito font-semibold pl-2 ">
-          <ul className="flex flex-row flex-wrap lg:flex-col justify-between md:gap2 lg:gap-5">
+          <ul className="flex flex-col sm:flex-row lg:flex-col justify-between md:gap2 lg:gap-5">
             {data.map(({ id, label, url }) => (
               <li
                 key={id}
@@ -23,7 +23,7 @@ const Portfolio = () => {
               >
                 <Link
                   href={url}
-                  className="hover:text-primary_heading2 active:text-primary_heading2"
+                  className="hover:text-primary_heading2"
                 >
                   {label}
                 </Link>{" "}
@@ -34,7 +34,7 @@ const Portfolio = () => {
         <div className="w-full md:w-[3/4] grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 justify-items-center gap-10 sm:gap-2 mt-5 lg:mt-0">
           {portfolioPhoto.map(({ id, photoUrl }) => (
             <div key={id}>
-              <Image width={270} height={250} src={photoUrl} alt="" />
+              <Image width={370} height={350} src={photoUrl} alt="" />
             </div>
           ))}
         </div>

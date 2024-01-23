@@ -17,9 +17,9 @@ const RegisterSection = () => {
           <Image src={leftImage} alt="" />
         </div>
       </div>
-      <div className="w-11/12 md:max-w-[480px] md:w-1/2 mx-auto">
-        <div className="bg-primary_bg py-12 px-9 rounded-xl">
-          <h1 className=" font-nunito text-2xl md:text-2xl font-extrabold text-primary_heading2">
+      <div className="w-full px-2 md:px-0 md:max-w-[480px] md:w-1/2 mx-auto">
+        <div className="bg-primary_bg p-5 rounded-xl">
+          <h1 className=" font-nunito text-xl md:text-2xl font-extrabold text-primary_heading2">
             Register interest
           </h1>
           <p className=" text-primary_paragraph1 pt-2">
@@ -30,7 +30,7 @@ const RegisterSection = () => {
             email, call us or send us a WhatsApp to make an appointment.
           </p>
           <form className="">
-            <div className="flex flex-col gap-3 py-12">
+            <div className="flex flex-col gap-2 py-5">
               <InputField
                 type="text"
                 placeholder="Enter your name"
