@@ -17,7 +17,7 @@ const RegisterSection = () => {
           <Image src={leftImage} alt="" />
         </div>
       </div>
-      <div className="w-full px-2 md:px-0 md:max-w-[480px] md:w-1/2 mx-auto">
+      <div className="w-full px-2 sm:w-11/12 md:px-0 md:max-w-[480px] md:w-1/2 mx-auto">
         <div className="bg-primary_bg p-5 rounded-xl">
           <h1 className=" font-nunito text-xl md:text-2xl font-extrabold text-primary_heading2">
             Register interest
